@@ -7,7 +7,7 @@
 
 ## Usage
 
-    npm i -g pwdgen
+    npm i -g @commenthol/pwdgen
 
 ## CLI
 
@@ -29,7 +29,7 @@
 ## API
 
 ```js 
-import { generate } from 'pwdgen'
+import { generate } from '@commenthol/pwdgen'
 
 const options = { length: 30 }
 generate(options)
@@ -89,6 +89,6 @@ MIT License
 See [LICENSE][] for more info.
 
 [LICENSE]: ./LICENSE
-[npm-badge]: https://badgen.net/npm/v/pwdgen
-[npm]: https://www.npmjs.com/package/pwdgen
-[types-badge]: https://badgen.net/npm/types/pwdgen
+[npm-badge]: https://badgen.net/npm/v/@commenthol/pwdgen
+[npm]: https://www.npmjs.com/package/@commenthol/pwdgen
+[types-badge]: https://badgen.net/npm/types/@commenthol/pwdgen
